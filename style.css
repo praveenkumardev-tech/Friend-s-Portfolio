@@ -87,6 +87,7 @@ section{
     align-items: center;
     justify-content:center;
     gap: 15rem;
+    width: 100%;
 }
 .home-content{
     display: flex;
@@ -412,7 +413,7 @@ span{
     line-height: 2;
 }
 .skills-info p{
-    font-size:1rem;
+    font-size:16px;
     font-weight: 600;
     max-height: 100px;
     line-height: 1.7;
@@ -479,11 +480,14 @@ span{
     text-align: center;
     text-align:center ;
     font-size: 1.3rem;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
-
-
-
+.projects-item .btn a{
+    text-decoration: none;
+    color: #080808;
+}
 
 .contact{
     background-color: var(--bg-color);
@@ -630,7 +634,7 @@ input[type=number]::-webkit-inner-spin-button{
 
 }
 
-@media(max-width:895px){
+@media(max-width:700px){
     #menu-icon{
         display: block;
     }
